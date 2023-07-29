@@ -352,6 +352,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   levelName: Game underwater
   button: {fileID: 1578273021}
+  Button2: {fileID: 2004979720}
 --- !u!1001 &102599958
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7478,6 +7479,12 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963626330}
   m_CullTransparentMesh: 1
+--- !u!1 &2004979720 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 618751373822450107, guid: f1f374874373159448ef538a32af0c77,
+    type: 3}
+  m_PrefabInstance: {fileID: 102599958}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &2011841870
 GameObject:
   m_ObjectHideFlags: 0
