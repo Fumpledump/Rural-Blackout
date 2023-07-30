@@ -33,6 +33,12 @@ public class PauseMenu : MonoBehaviour
 		SceneManager.LoadScene("Menu");
 	}
 
+	public void GiveIn()
+	{
+		Time.timeScale = 1f;
+		SceneManager.LoadScene("WinRuins");
+	}
+
 	void UpdateActive()
 	{
 		if(paused)

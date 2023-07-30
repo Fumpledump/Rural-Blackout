@@ -14506,6 +14506,7 @@ MonoBehaviour:
   gen: {fileID: 1380150756}
   enemy: {fileID: 919132149027465524}
   clockText: {fileID: 253471389}
+  winScreen: Win
   timeSinceStart: 0
   rawTimeScale: 2
   timesAtRings:
