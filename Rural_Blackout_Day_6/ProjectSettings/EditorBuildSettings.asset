@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Game Tunnels.unity
     guid: 3eb24d0c85ad49d4aa86aa175bec1154
+  - enabled: 1
+    path: Assets/Scenes/Silas_Jumpscare.unity
+    guid: 1bce612d503766247b79ebb1ed01ad35
   m_configObjects: {}

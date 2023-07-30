@@ -33,8 +33,11 @@ public class LightSwitch : Interactable
 
 	void Start()
 	{
-		SetEmitting(false);
-		UpdateVisuals();
+		if (!IntroVideo.Instance.IntroPlaying)
+		{
+			SetEmitting(false);
+			UpdateVisuals();
+		}
 	}
 
 	public override void OnPress()
@@ -46,14 +49,14 @@ public class LightSwitch : Interactable
 		// might not necessarily be on if we run out of power
 		isSwitchedOn = !isSwitchedOn;
 
-		if(!Generator.HasPower)
+		if (!Generator.HasPower)
 		{
 			HelpManager.Instance.ShowText("THERES NO POWER");
 		}
 
-		if(isSwitchedOn)
+		if (isSwitchedOn)
 		{
-			if(Generator.HasPower)
+			if (Generator.HasPower)
 			{
 				SetEmitting(true);
 			}
@@ -66,11 +69,11 @@ public class LightSwitch : Interactable
 		UpdateVisuals();
 	}
 
-	void SetEmitting(bool emitting)
+	public void SetEmitting(bool emitting)
 	{
-		if(IsEmitting != emitting)
+		if (IsEmitting != emitting)
 		{
-			if(emitting)
+			if (emitting)
 			{
 				EmitCount++;
 			}
@@ -82,16 +85,28 @@ public class LightSwitch : Interactable
 
 		IsEmitting = emitting;
 
-		if(IsEmitting)
+		if (IsEmitting)
 		{
 			OnStartedEmitting?.Invoke();
 		}
 	}
 
-	void UpdateVisuals()
+	public void UpdateVisuals()
 	{
 		lightContainer.SetActive(IsEmitting);
 		rend.material = isSwitchedOn ? onMaterial : offMaterial;
+	}
+
+	public void UpdateVisualsIntro()
+	{
+		rend.material = onMaterial;
+		lightContainer.SetActive(true);
+	}
+
+	public void UpdateVisualsIntroEnd()
+	{
+		rend.material = offMaterial;
+		lightContainer.SetActive(false);
 	}
 
 	void OnGeneratorRanOutOfFuel()
@@ -102,7 +117,7 @@ public class LightSwitch : Interactable
 
 	void OnGeneratorRefueled()
 	{
-		if(isSwitchedOn)
+		if (isSwitchedOn)
 		{
 			SetEmitting(true);
 			UpdateVisuals();

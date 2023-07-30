@@ -23,7 +23,14 @@ public class PlayerInteraction : MonoBehaviour
 	public int _maxPlanks = 1;
 
 
-	void Update() {
+	void Update() 
+	{
+        if (IntroVideo.Instance.IntroPlaying)
+        {
+			return;
+        }
+
+
 		// Planks UI
 		if(_planksCollectedCount > 0) {
 			_carriedPlankUI.SetActive(true);

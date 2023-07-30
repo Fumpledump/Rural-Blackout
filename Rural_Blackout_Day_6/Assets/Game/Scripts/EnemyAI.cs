@@ -18,6 +18,7 @@ public class EnemyAI : MonoBehaviour
     private float timer;
     public Animator anim;
 	public LayerMask sightMask;
+    public string jumpscareScene;
     private void Awake()
     {
         pwn = player.GetComponent<PlayerWalkNoise>();
@@ -119,6 +120,8 @@ public class EnemyAI : MonoBehaviour
     void HearingCheck()
     {
         //If sprinting, start going to last position
+
+        /* Broke some stuff here - Dev 6
         if (isSprinting)
         {
             goingToLastPosition = true;
@@ -128,6 +131,7 @@ public class EnemyAI : MonoBehaviour
             agent.speed = chasingSpeed;
             anim.SetBool("Running", true);
         }
+        */
 
         //If arrive to position
         if (goingToLastPosition && Vector3.Distance(transform.position, lastPosWhenSprinting) < 2 && !isLooking && !isSprinting && !canSeePlayer)
@@ -179,7 +183,7 @@ public class EnemyAI : MonoBehaviour
             isLooking = false;
             if (distToTarget < killingDistance)
             {
-                SceneManager.LoadScene("Jumpscare");
+                SceneManager.LoadScene(jumpscareScene);
             }
 
             return;

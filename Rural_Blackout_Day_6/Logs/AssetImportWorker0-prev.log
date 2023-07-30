@@ -15,7 +15,7 @@ F:/Game Jams/Pass the GAME Challenge 2023/Day 6/Rural-Blackout/Rural_Blackout_Da
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-54321
+54824
 Successfully changed project path to: F:/Game Jams/Pass the GAME Challenge 2023/Day 6/Rural-Blackout/Rural_Blackout_Day_6
 F:/Game Jams/Pass the GAME Challenge 2023/Day 6/Rural-Blackout/Rural_Blackout_Day_6
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,11 +47,11 @@ F:/Game Jams/Pass the GAME Challenge 2023/Day 6/Rural-Blackout/Rural_Blackout_Da
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [10480] Host "[IP] 10.147.17.213 [Port] 0 [Flags] 2 [Guid] 1321726601 [EditorId] 1321726601 [Version] 1048832 [Id] WindowsEditor(7,Fumpleunit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [28540] Host "[IP] 10.147.17.213 [Port] 0 [Flags] 2 [Guid] 586919283 [EditorId] 586919283 [Version] 1048832 [Id] WindowsEditor(7,Fumpleunit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [10480] Host "[IP] 10.147.17.213 [Port] 0 [Flags] 2 [Guid] 1321726601 [EditorId] 1321726601 [Version] 1048832 [Id] WindowsEditor(7,Fumpleunit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [28540] Host "[IP] 10.147.17.213 [Port] 0 [Flags] 2 [Guid] 586919283 [EditorId] 586919283 [Version] 1048832 [Id] WindowsEditor(7,Fumpleunit) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 159.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 183.36 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.27f1 (ca3ffb99bcc6)
 [Subsystems] Discovering subsystems at path F:/Unity/2021.3.27f1/Editor/Data/Resources/UnitySubsystems
@@ -67,7 +67,7 @@ Initialize mono
 Mono path[0] = 'F:/Unity/2021.3.27f1/Editor/Data/Managed'
 Mono path[1] = 'F:/Unity/2021.3.27f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'F:/Unity/2021.3.27f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56004
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56560
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: F:/Unity/2021.3.27f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -75,48 +75,48 @@ Register platform support module: F:/Unity/2021.3.27f1/Editor/Data/PlaybackEngin
 Register platform support module: F:/Unity/2021.3.27f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
 Register platform support module: F:/Unity/2021.3.27f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: F:/Unity/2021.3.27f1/Editor/Data/PlaybackEngines/MetroSupport/UnityEditor.UWP.Extensions.dll
-Registered in 0.009467 seconds.
+Registered in 0.010631 seconds.
 Native extension for UWP target not found
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 436 ms
+Android Extension - Scanning For ADB Devices 458 ms
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 227.98 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 166.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.676 seconds
+- Completed reload, in  1.542 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1676ms)
-		BeginReloadAssembly (149ms)
+	ReloadAssembly (1543ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1400ms)
-			LoadAssemblies (150ms)
+		EndReloadAssembly (1275ms)
+			LoadAssemblies (149ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (181ms)
+			SetupTypeCache (155ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (1119ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (986ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (626ms)
+				InitializePlatformSupportModulesInManaged (666ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (228ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (82ms)
+				RefreshPlugins (167ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (102ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.013847 seconds.
+Registered in 0.010004 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -125,46 +125,46 @@ Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 153.83 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 183.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  2.107 seconds
+- Completed reload, in  2.469 seconds
 Domain Reload Profiling:
-	ReloadAssembly (2108ms)
-		BeginReloadAssembly (238ms)
+	ReloadAssembly (2470ms)
+		BeginReloadAssembly (223ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (29ms)
-		EndReloadAssembly (1729ms)
-			LoadAssemblies (208ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (2093ms)
+			LoadAssemblies (221ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (388ms)
+			SetupTypeCache (688ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (84ms)
-			SetupLoadedEditorAssemblies (1031ms)
+			RebuildScriptCaches (116ms)
+			SetupLoadedEditorAssemblies (1033ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (33ms)
+				InitializePlatformSupportModulesInManaged (39ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (154ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (616ms)
-				ProcessInitializeOnLoadMethodAttributes (92ms)
+				RefreshPlugins (184ms)
+				BeforeProcessingInitializeOnLoad (147ms)
+				ProcessInitializeOnLoadAttributes (561ms)
+				ProcessInitializeOnLoadMethodAttributes (98ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5196 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 33 unused Assets / (0.8 MB). Loaded Objects now: 5657.
-Memory consumption went from 216.8 MB to 216.0 MB.
-Total: 4.860100 ms (FindLiveObjects: 0.453000 ms CreateObjectMapping: 0.670000 ms MarkObjects: 3.206000 ms  DeleteObjects: 0.530100 ms)
+Memory consumption went from 216.8 MB to 216.1 MB.
+Total: 10.158100 ms (FindLiveObjects: 0.543700 ms CreateObjectMapping: 0.592000 ms MarkObjects: 8.578000 ms  DeleteObjects: 0.443500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -178,13 +178,629 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 505366.051691 seconds.
-  path: Assets/Game/Models/Zombie Scream.fbx
-  artifactKey: Guid(5275b4ffb7b2bd84f9c334d33044a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Models/Zombie Scream.fbx using Guid(5275b4ffb7b2bd84f9c334d33044a107) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61044a3b1de054560447894e6002eab1') in 0.131686 seconds 
+  Time since last request: 505872.162866 seconds.
+  path: Assets/Game/Models/Bookshelf.blend
+  artifactKey: Guid(8d0374a6dc4acef4a9a5c79c75f91ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Bookshelf.blend using Guid(8d0374a6dc4acef4a9a5c79c75f91ae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fabbc6751862d5e99cc9ea250fd03c0') in 0.078367 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 229.996539 seconds.
-  path: Assets/Game/Textures/DubscrImprovedTransparent.png
-  artifactKey: Guid(5b3c223def99a014eb380fe7d072540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Textures/DubscrImprovedTransparent.png using Guid(5b3c223def99a014eb380fe7d072540a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e34900a70ca65897e0ca89c926aae4d') in 0.039593 seconds 
+  Time since last request: 23.078540 seconds.
+  path: Assets/Game/Models/Enemy.blend
+  artifactKey: Guid(3aae2bb0ec6738c4985b6fb5b3e9f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Enemy.blend using Guid(3aae2bb0ec6738c4985b6fb5b3e9f7ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad35a37fb4524f8fe6bed286467c186') in 0.007640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Models/Monitor.blend
+  artifactKey: Guid(f3ce0035ed0a72e498316eb605d1e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Monitor.blend using Guid(f3ce0035ed0a72e498316eb605d1e30b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1ff00ef4e04576c219eb99f1d9d011') in 0.408777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Game/Models/Plank.blend
+  artifactKey: Guid(b1374f790b83bc14d9e5ee77e349584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Plank.blend using Guid(b1374f790b83bc14d9e5ee77e349584d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2254499e2f8d8c14e1a00ac96b2cf99') in 0.016442 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000131 seconds.
+  path: Assets/Game/Models/WoodenChair.blend
+  artifactKey: Guid(2590dcbba9c65bf419d1cc52b5e480fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/WoodenChair.blend using Guid(2590dcbba9c65bf419d1cc52b5e480fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dfef20de45b022c30ee48f33edd24b0') in 0.049056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Game/Models/House.blend
+  artifactKey: Guid(86c6d496ea328434abd7bd49fedaad72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/House.blend using Guid(86c6d496ea328434abd7bd49fedaad72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '778b54b272488cb25fbd4a6bc90f2e39') in 0.060843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Game/Models/Table.blend
+  artifactKey: Guid(80dbdd2266fdd8743a1e77b61e8e5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Models/Table.blend using Guid(80dbdd2266fdd8743a1e77b61e8e5b2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0a0c5fe27c717435f691ae6515d3e3') in 0.018436 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.633333 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(ca57aeed103ec164da3ce8329982aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(ca57aeed103ec164da3ce8329982aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda179c484b4a8c77bc195a8c357350e') in 0.014573 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009045 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.009 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2010ms)
+		BeginReloadAssembly (285ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (1556ms)
+			LoadAssemblies (241ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (471ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (82ms)
+			SetupLoadedEditorAssemblies (731ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (38ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (98ms)
+				ProcessInitializeOnLoadAttributes (502ms)
+				ProcessInitializeOnLoadMethodAttributes (87ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5661.
+Memory consumption went from 203.9 MB to 203.1 MB.
+Total: 7.106000 ms (FindLiveObjects: 0.542800 ms CreateObjectMapping: 0.391600 ms MarkObjects: 5.764800 ms  DeleteObjects: 0.405500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.022283 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.25 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.383 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2384ms)
+		BeginReloadAssembly (217ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2035ms)
+			LoadAssemblies (191ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (762ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (124ms)
+			SetupLoadedEditorAssemblies (808ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (62ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (160ms)
+				ProcessInitializeOnLoadAttributes (488ms)
+				ProcessInitializeOnLoadMethodAttributes (91ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 5.15 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5664.
+Memory consumption went from 203.9 MB to 203.1 MB.
+Total: 17.248500 ms (FindLiveObjects: 8.368800 ms CreateObjectMapping: 1.329100 ms MarkObjects: 7.154800 ms  DeleteObjects: 0.394000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016372 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.625 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2626ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (2132ms)
+			LoadAssemblies (285ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (821ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (135ms)
+			SetupLoadedEditorAssemblies (736ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (56ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (473ms)
+				ProcessInitializeOnLoadMethodAttributes (90ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5667.
+Memory consumption went from 203.9 MB to 203.2 MB.
+Total: 6.635600 ms (FindLiveObjects: 0.485000 ms CreateObjectMapping: 0.552400 ms MarkObjects: 5.160100 ms  DeleteObjects: 0.436700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016023 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.343 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3346ms)
+		BeginReloadAssembly (393ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (10ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (2637ms)
+			LoadAssemblies (398ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (796ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (118ms)
+			SetupLoadedEditorAssemblies (1254ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (77ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (294ms)
+				ProcessInitializeOnLoadAttributes (697ms)
+				ProcessInitializeOnLoadMethodAttributes (175ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (23ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5670.
+Memory consumption went from 203.9 MB to 203.2 MB.
+Total: 6.039600 ms (FindLiveObjects: 0.570800 ms CreateObjectMapping: 0.648900 ms MarkObjects: 4.264500 ms  DeleteObjects: 0.554400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 416.065134 seconds.
+  path: Assets/Scenes/anglerFishJumpscare.unity
+  artifactKey: Guid(5c397dfc3d64c2944afaddd870d3dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/anglerFishJumpscare.unity using Guid(5c397dfc3d64c2944afaddd870d3dbb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828f22358ca41652ebc05b13bbd59580') in 0.026158 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009136 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.575 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2576ms)
+		BeginReloadAssembly (230ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (50ms)
+		EndReloadAssembly (2203ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (650ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (150ms)
+			SetupLoadedEditorAssemblies (1033ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (170ms)
+				ProcessInitializeOnLoadAttributes (688ms)
+				ProcessInitializeOnLoadMethodAttributes (99ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.47 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5673.
+Memory consumption went from 203.9 MB to 203.2 MB.
+Total: 4.656900 ms (FindLiveObjects: 0.409600 ms CreateObjectMapping: 0.350800 ms MarkObjects: 3.228600 ms  DeleteObjects: 0.666600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 15.206094 seconds.
+  path: Assets/Scenes/Jumpscare.unity
+  artifactKey: Guid(a34384c5ebe1bca40958cb483ec942cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Jumpscare.unity using Guid(a34384c5ebe1bca40958cb483ec942cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca56794329beb2ca621b7d3545be777') in 0.023477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.790184 seconds.
+  path: Assets/Scenes/Menu.unity
+  artifactKey: Guid(ca57aeed103ec164da3ce8329982aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Menu.unity using Guid(ca57aeed103ec164da3ce8329982aa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09a22bb05f6a6f9beb571021772de78d') in 0.004674 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017073 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.941 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1942ms)
+		BeginReloadAssembly (324ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (58ms)
+		EndReloadAssembly (1503ms)
+			LoadAssemblies (284ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (411ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (759ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (34ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (524ms)
+				ProcessInitializeOnLoadMethodAttributes (89ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.8 MB). Loaded Objects now: 5676.
+Memory consumption went from 203.9 MB to 203.2 MB.
+Total: 6.437500 ms (FindLiveObjects: 0.574700 ms CreateObjectMapping: 0.465300 ms MarkObjects: 4.883900 ms  DeleteObjects: 0.512600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 721.870131 seconds.
+  path: Assets/Game/Audio/Theme/homeinvasiongame.mp3
+  artifactKey: Guid(71ae1615379e136468baa651b997396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/Theme/homeinvasiongame.mp3 using Guid(71ae1615379e136468baa651b997396d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c13a24f13dda4377932ac22f913e410') in 0.131125 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009321 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.073 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2075ms)
+		BeginReloadAssembly (253ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (34ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1705ms)
+			LoadAssemblies (196ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (477ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (824ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (33ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (508ms)
+				ProcessInitializeOnLoadMethodAttributes (152ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (66ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5679.
+Memory consumption went from 203.9 MB to 203.2 MB.
+Total: 6.077300 ms (FindLiveObjects: 0.600600 ms CreateObjectMapping: 0.494200 ms MarkObjects: 4.330500 ms  DeleteObjects: 0.650800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 27.842291 seconds.
+  path: Assets/Scenes/Game.unity
+  artifactKey: Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Game.unity using Guid(99c9720ab356a0642a771bea13969a05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b99ef76b39eee64ad83f474c82650738') in 0.012521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.642800 seconds.
+  path: Assets/Game/Audio/ambiencerumble.mp3
+  artifactKey: Guid(1b620271d14ba6a4db525bc75ea52e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/ambiencerumble.mp3 using Guid(1b620271d14ba6a4db525bc75ea52e50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b108a21cba871e7f889d2d236033d36') in 0.020532 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Game/Audio/scaremonsteraway.mp3
+  artifactKey: Guid(449aea338988020418dc13b55b67482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/scaremonsteraway.mp3 using Guid(449aea338988020418dc13b55b67482e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c156b071e75f9d3c291560763b9f94a3') in 0.028035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Audio/jumpscarenoise.mp3
+  artifactKey: Guid(58ae00678476c80408ebc0ce1e992611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/jumpscarenoise.mp3 using Guid(58ae00678476c80408ebc0ce1e992611) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b08ac78eed8771c636285c05640742b1') in 0.020706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Audio/camerastatic.mp3
+  artifactKey: Guid(41c71528676d95c4b8a5f4b329ef34f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/camerastatic.mp3 using Guid(41c71528676d95c4b8a5f4b329ef34f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2285803dec7ff62d372c7f47fa129596') in 0.018860 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Game/Audio/glassbreak.mp3
+  artifactKey: Guid(07210759cbffbc341ba64ee57de581ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/glassbreak.mp3 using Guid(07210759cbffbc341ba64ee57de581ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bacec880fe23fd20ad4024fcad2a934e') in 0.021123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Audio/generator.mp3
+  artifactKey: Guid(5f75dbaf12b5e3b4cb49546ac9eb8cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/generator.mp3 using Guid(5f75dbaf12b5e3b4cb49546ac9eb8cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cab7d1eeb81b6466d44cba45fa4b757') in 0.030065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Game/Audio/gascanpouring.mp3
+  artifactKey: Guid(4c9a1b0087bb0194ebeef55eb9b54550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/gascanpouring.mp3 using Guid(4c9a1b0087bb0194ebeef55eb9b54550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866216b51b5086097853208755bc80d6') in 0.021000 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Game/Audio/nighttimeambience.mp3
+  artifactKey: Guid(a2388f796178af746a1e02ac872246dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/nighttimeambience.mp3 using Guid(a2388f796178af746a1e02ac872246dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d052d4d5fa3e02a97c900d811d4ad61') in 0.026888 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Game/Audio/Song 1.mp3
+  artifactKey: Guid(38fb8352997553a44a8862cae5ece3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/Song 1.mp3 using Guid(38fb8352997553a44a8862cae5ece3e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002ebab884f8c873d18555f87a5183ee') in 0.007570 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Game/Audio/bell thing.mp3
+  artifactKey: Guid(4888cd29945ba0f44971221f05836d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/bell thing.mp3 using Guid(4888cd29945ba0f44971221f05836d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df8480883c27268c00ded2b54f84712') in 0.035452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Game/Audio/PickupSound.mp3
+  artifactKey: Guid(cf84b99bfab87864b95654eba9df8025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Audio/PickupSound.mp3 using Guid(cf84b99bfab87864b95654eba9df8025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9667dee739ede485a456696a019612c') in 0.046550 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.063203 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image F:\Game Jams\Pass the GAME Challenge 2023\Day 6\Rural-Blackout\Rural_Blackout_Day_6\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for UWP target not found
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.531 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3544ms)
+		BeginReloadAssembly (315ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (66ms)
+		EndReloadAssembly (2903ms)
+			LoadAssemblies (299ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (863ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (157ms)
+			SetupLoadedEditorAssemblies (1414ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (55ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (166ms)
+				ProcessInitializeOnLoadAttributes (998ms)
+				ProcessInitializeOnLoadMethodAttributes (167ms)
+				AfterProcessingInitializeOnLoad (25ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (43ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 3.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5039 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (0.7 MB). Loaded Objects now: 5682.
+Memory consumption went from 204.2 MB to 203.4 MB.
+Total: 14.362300 ms (FindLiveObjects: 1.751800 ms CreateObjectMapping: 3.944400 ms MarkObjects: 8.078300 ms  DeleteObjects: 0.586100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.028396 seconds.
