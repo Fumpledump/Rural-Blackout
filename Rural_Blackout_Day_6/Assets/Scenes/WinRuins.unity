@@ -2355,6 +2355,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
         type: 3}
+      propertyPath: m_Url
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
       propertyPath: m_Looping
       value: 1
       objectReference: {fileID: 0}
@@ -2364,6 +2369,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 32900000, guid: 1d4e040a56d76114aa97d8262230dd9e,
         type: 3}
+    - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3297121506793184278, guid: 3fc853b161f5082418dd5885fb34265c,
         type: 3}
       propertyPath: m_Volume
@@ -2373,6 +2383,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playIntro
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297121506793184279, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: videoFileName
+      value: SpookyEye.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 3297121506793184279, guid: 3fc853b161f5082418dd5885fb34265c,
         type: 3}

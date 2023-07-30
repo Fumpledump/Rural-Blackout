@@ -14690,11 +14690,31 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -174.54
       objectReference: {fileID: 0}
+    - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: m_WaitForFirstFrame
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3297121506793184279, guid: 3fc853b161f5082418dd5885fb34265c,
         type: 3}
       propertyPath: shutdownAudio
       value: 
       objectReference: {fileID: 1024408613}
+    - target: {fileID: 3297121506793184279, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: videoFileName
+      value: BlackoutIntro.mp4
+      objectReference: {fileID: 0}
     - target: {fileID: 3297121506793184279, guid: 3fc853b161f5082418dd5885fb34265c,
         type: 3}
       propertyPath: playerFlashlight

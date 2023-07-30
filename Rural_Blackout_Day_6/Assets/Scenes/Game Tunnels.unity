@@ -2269,6 +2269,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73f6a756bd4ef4442bd12283d418f041, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  playerFlashlight: {fileID: 0}
   helpText: {fileID: 2051259203}
 --- !u!114 &300221453 stripped
 MonoBehaviour:
@@ -13747,6 +13748,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 32900000, guid: 1d4e040a56d76114aa97d8262230dd9e,
         type: 3}
+    - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: m_DataSource
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297121506793184276, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: m_PlayOnAwake
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3297121506793184278, guid: 3fc853b161f5082418dd5885fb34265c,
         type: 3}
       propertyPath: m_Volume
@@ -13756,6 +13767,11 @@ PrefabInstance:
         type: 3}
       propertyPath: playIntro
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3297121506793184279, guid: 3fc853b161f5082418dd5885fb34265c,
+        type: 3}
+      propertyPath: videoFileName
+      value: SpookyEye.mp4
       objectReference: {fileID: 0}
     - target: {fileID: 3297121506793184279, guid: 3fc853b161f5082418dd5885fb34265c,
         type: 3}

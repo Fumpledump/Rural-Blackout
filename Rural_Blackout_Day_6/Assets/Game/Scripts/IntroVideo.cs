@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class IntroVideo : MonoBehaviour
 {
+    public string videoFileName;
+
     public GameObject playerFlashlight;
     public bool IntroPlaying;
     public List<LightSwitch> lights;
@@ -29,6 +31,8 @@ public class IntroVideo : MonoBehaviour
     {
         // Get reference to the VideoPlayer component
         videoPlayer = GetComponent<VideoPlayer>();
+
+        PlayVideo();
 
         // Subscribe to the loopPointReached event
         videoPlayer.loopPointReached += OnVideoFinished;
@@ -77,6 +81,17 @@ public class IntroVideo : MonoBehaviour
             HelpManager.Instance.BlackoutNotification();
 
             this.gameObject.SetActive(false); // Hide Screen
+        }
+    }
+
+    public void PlayVideo()
+    {
+        if (videoPlayer)
+        {
+            string videoPath = System.IO.Path.Combine(Application.streamingAssetsPath, videoFileName);
+            Debug.Log(videoPath);
+            videoPlayer.url = videoPath;
+            videoPlayer.Play();
         }
     }
 }
