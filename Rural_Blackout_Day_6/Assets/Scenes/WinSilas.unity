@@ -6702,7 +6702,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New level unlocked in the Extras Menu!
+  m_text: Check out the Level PRESSURE in Extras! :)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9749c94c79755f24b9ba8d0b46692e42, type: 2}
   m_sharedMaterial: {fileID: 8465432741156861565, guid: 9749c94c79755f24b9ba8d0b46692e42,
@@ -6730,7 +6730,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
+  m_fontSize: 70.1
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -9451,6 +9451,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   source: {fileID: 1431168178}
   timeBeforeMenu: 19
+  playChimes: 0
 --- !u!1001 &1450086965
 PrefabInstance:
   m_ObjectHideFlags: 0

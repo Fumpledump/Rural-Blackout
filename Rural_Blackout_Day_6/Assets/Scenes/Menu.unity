@@ -393,12 +393,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 84439656}
   m_CullTransparentMesh: 1
---- !u!1 &111654577 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 618751373822450107, guid: f1f374874373159448ef538a32af0c77,
-    type: 3}
-  m_PrefabInstance: {fileID: 1682317279}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &127798746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1200,12 +1194,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 409710903}
   m_CullTransparentMesh: 1
---- !u!1 &457651426 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 618751373822450107, guid: f1f374874373159448ef538a32af0c77,
-    type: 3}
-  m_PrefabInstance: {fileID: 1251611934}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &469213557
 GameObject:
   m_ObjectHideFlags: 0
@@ -2048,6 +2036,7 @@ GameObject:
   m_Component:
   - component: {fileID: 968438747}
   - component: {fileID: 968438748}
+  - component: {fileID: 968438749}
   m_Layer: 0
   m_Name: Blue Eyes
   m_TagString: Untagged
@@ -2093,6 +2082,19 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &968438749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 968438746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74a41a64945aa764c9073a7aa0de749a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelName: Game underwater
 --- !u!1 &1032011474
 GameObject:
   m_ObjectHideFlags: 0
@@ -3066,7 +3068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'A message from the <#F00>7 DEVS</color> that worked on this game for the
+  m_text: 'A message from the <#F00>8 DEVS</color> that worked on this game for the
 
     <#F00>PASS
     THE GAME CHALLENGE 2023</color> by <#F00>BLACKTHORNPROD</color></align>'
@@ -5265,7 +5267,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2131667913}
-  - component: {fileID: 2131667914}
   m_Layer: 5
   m_Name: Extra Levels
   m_TagString: Untagged
@@ -5296,21 +5297,6 @@ RectTransform:
   m_AnchoredPosition: {x: -826, y: 444}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2131667914
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2131667912}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 74a41a64945aa764c9073a7aa0de749a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  levelName: Game underwater
-  button: {fileID: 457651426}
-  Button2: {fileID: 111654577}
 --- !u!1 &4998635878660893834
 GameObject:
   m_ObjectHideFlags: 0

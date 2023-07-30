@@ -19,6 +19,7 @@ public class EnemyAI : MonoBehaviour
     public Animator anim;
 	public LayerMask sightMask;
     public string jumpscareScene;
+    public bool hasAnimator;
     private void Awake()
     {
         pwn = player.GetComponent<PlayerWalkNoise>();
@@ -28,6 +29,11 @@ public class EnemyAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        if (anim != null)
+        {
+            noAnimator = true;
+        }
+
         if (target != null)
             TargetRandomRoom();
 
@@ -54,8 +60,11 @@ public class EnemyAI : MonoBehaviour
     IEnumerator LookAround()
     {
         isLooking = true;
-        anim.SetBool("Running", false);
-        anim.Play("Looking Around");
+        if (hasAnimator)
+        {
+            anim.SetBool("Running", false);
+            anim.Play("Looking Around");
+        }
         yield return new WaitForSeconds(3);
         if (target != player)
             TargetRandomRoom();
@@ -64,7 +73,10 @@ public class EnemyAI : MonoBehaviour
         {
             goingToLastPosition = false;
         }
-        anim.Play("Walking");
+        if (hasAnimator)
+        {
+            anim.Play("Walking");
+        }
         isLooking = false;
     }
 

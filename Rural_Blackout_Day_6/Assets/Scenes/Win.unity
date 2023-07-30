@@ -6359,7 +6359,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: New level unlocked in the Extras Menu!
+  m_text: Check out the level RUINS in Extras! :)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9749c94c79755f24b9ba8d0b46692e42, type: 2}
   m_sharedMaterial: {fileID: 8465432741156861565, guid: 9749c94c79755f24b9ba8d0b46692e42,
