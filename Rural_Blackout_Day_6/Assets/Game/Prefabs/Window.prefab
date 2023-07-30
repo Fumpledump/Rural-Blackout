@@ -146,7 +146,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 509f2908a6c8a5448b32ca2f1716b0a5, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 07210759cbffbc341ba64ee57de581ea, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -245,12 +245,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: b4450592e721634438082a2325c24e46, type: 3}
-  promptText: E - board up
+  promptText: '[ E ]'
   disable:
   - {fileID: 8530372576011237115}
   - {fileID: 8373256549539996043}
   enable: {fileID: 7429287632302017168}
-  _boltWindowsAudio: {fileID: 3045391038117410033}
 --- !u!1 &8530372576011237115
 GameObject:
   m_ObjectHideFlags: 0
@@ -443,6 +442,11 @@ PrefabInstance:
       propertyPath: rend
       value: 
       objectReference: {fileID: 7863631312605955088}
+    - target: {fileID: 6492226154133248722, guid: dffed6403ce48264ab3138ffadf32a95,
+        type: 3}
+      propertyPath: brokenSound
+      value: 
+      objectReference: {fileID: 3045391038117410033}
     - target: {fileID: 6492226154133248722, guid: dffed6403ce48264ab3138ffadf32a95,
         type: 3}
       propertyPath: insidePoint

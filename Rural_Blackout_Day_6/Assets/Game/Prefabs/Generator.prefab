@@ -423,7 +423,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 2f388a4b8e434ec45a57bc38f0189100, type: 3}
-  promptText: HOLD E - refuel
+  promptText: HOLD E
   idleFuelCan: {fileID: 838422978997671584}
   fillingFuelCan: {fileID: 8255067914590143452}
   fuelDecreaseSpeed: 0.011111111

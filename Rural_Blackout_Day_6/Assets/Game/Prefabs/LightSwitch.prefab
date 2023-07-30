@@ -396,8 +396,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   icon: {fileID: 21300000, guid: 0a0dd8fac24aff3469b0d00b013cdb5a, type: 3}
-  promptText: E - toggle light
-  isSwitchedOn: 0
+  promptText: E
   lightContainer: {fileID: 4449636604044040091}
   onMaterial: {fileID: 2100000, guid: 286851d15948fd840aa547ec46f385e0, type: 2}
   offMaterial: {fileID: 2100000, guid: d4d6f764e4a5949449394575559db7c3, type: 2}
