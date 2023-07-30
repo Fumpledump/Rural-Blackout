@@ -1109,11 +1109,6 @@ PrefabInstance:
       propertyPath: _lightSwitches.Array.data[7]
       value: 
       objectReference: {fileID: 1842299983}
-    - target: {fileID: 4903965546817466666, guid: 892202a83e4082e428fbfb4c2b17fcaf,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 5222907453856537392, guid: 892202a83e4082e428fbfb4c2b17fcaf,
         type: 3}
       propertyPath: m_Name
@@ -1173,11 +1168,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6724994290479802909, guid: 892202a83e4082e428fbfb4c2b17fcaf,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 892202a83e4082e428fbfb4c2b17fcaf, type: 3}
@@ -11418,108 +11408,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1570572402}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1573150414 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 5222907454679609766, guid: 892202a83e4082e428fbfb4c2b17fcaf,
+--- !u!82 &1573150419 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1573150419, guid: 892202a83e4082e428fbfb4c2b17fcaf,
     type: 3}
   m_PrefabInstance: {fileID: 141669111}
   m_PrefabAsset: {fileID: 0}
---- !u!82 &1573150419
-AudioSource:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1573150414}
-  m_Enabled: 1
-  serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 509f2908a6c8a5448b32ca2f1716b0a5, type: 3}
-  m_PlayOnAwake: 0
-  m_Volume: 1
-  m_Pitch: 1
-  Loop: 0
-  Mute: 0
-  Spatialize: 0
-  SpatializePostEffects: 0
-  Priority: 128
-  DopplerLevel: 1
-  MinDistance: 1
-  MaxDistance: 500
-  Pan2D: 0
-  rolloffMode: 0
-  BypassEffects: 0
-  BypassListenerEffects: 0
-  BypassReverbZones: 0
-  rolloffCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 1
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  panLevelCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  spreadCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 0
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
-  reverbZoneMixCustomCurve:
-    serializedVersion: 2
-    m_Curve:
-    - serializedVersion: 3
-      time: 0
-      value: 1
-      inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    m_PreInfinity: 2
-    m_PostInfinity: 2
-    m_RotationOrder: 4
 --- !u!1001 &1581018342
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12118,6 +12012,7 @@ MonoBehaviour:
   gen: {fileID: 1380150756}
   enemy: {fileID: 1532369678}
   clockText: {fileID: 253471389}
+  winScreen: WinSilas
   timeSinceStart: 0
   rawTimeScale: 2
   timesAtRings:

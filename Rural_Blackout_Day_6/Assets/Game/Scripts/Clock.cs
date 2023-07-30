@@ -17,6 +17,7 @@ public class Clock : MonoBehaviour {
     public Generator gen;
     public GameObject enemy;
     public TMP_Text clockText;
+    [SerializeField] string winScreen;
 
     [Header("Time Settings")]
 
@@ -86,7 +87,7 @@ public class Clock : MonoBehaviour {
         Debug.Log("Won Game");
         enemy.SetActive(false);
         RoomDirector.Instance.gameOver = true;
-		SceneManager.LoadScene("Win");
+		SceneManager.LoadScene(winScreen);
     }
 
     private IEnumerator PlaySounds(int hour) {
