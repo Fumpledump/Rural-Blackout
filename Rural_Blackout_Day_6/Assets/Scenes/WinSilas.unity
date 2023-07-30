@@ -2599,6 +2599,7 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   playIntro: 0
+  playOutro: 1
   shutdownAudio: {fileID: 0}
 --- !u!328 &375762461
 VideoPlayer:
@@ -9318,7 +9319,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1431168177}
   - component: {fileID: 1431168178}
-  - component: {fileID: 1431168179}
   m_Layer: 0
   m_Name: Chimes
   m_TagString: Untagged
@@ -9437,21 +9437,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1431168179
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1431168176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bf89bf95128035d44badc64d000fe762, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  source: {fileID: 1431168178}
-  timeBeforeMenu: 19
-  playChimes: 0
 --- !u!1001 &1450086965
 PrefabInstance:
   m_ObjectHideFlags: 0

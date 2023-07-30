@@ -221,6 +221,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
       propertyPath: _playerInteraction
       value: 
       objectReference: {fileID: 667427096}
@@ -983,6 +988,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d90ba6530d9bfda47abb4610956b2f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!82 &141669114 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 1573150419, guid: 892202a83e4082e428fbfb4c2b17fcaf,
+    type: 3}
+  m_PrefabInstance: {fileID: 141669111}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &153151504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4027,6 +4038,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
       propertyPath: _playerInteraction
       value: 
       objectReference: {fileID: 667427096}
@@ -5018,6 +5034,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8872385710338810062, guid: a53802e2b2de00849948b28e155ed224,
         type: 3}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
       propertyPath: _playerInteraction
@@ -6239,6 +6260,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
       propertyPath: _playerInteraction
       value: 
       objectReference: {fileID: 667427096}
@@ -6956,6 +6982,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8872385710338810062, guid: a53802e2b2de00849948b28e155ed224,
         type: 3}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
       propertyPath: _playerInteraction
@@ -8709,6 +8740,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
       propertyPath: _playerInteraction
       value: 
       objectReference: {fileID: 667427096}
@@ -9040,6 +9076,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
       propertyPath: _playerInteraction
       value: 
       objectReference: {fileID: 667427096}
@@ -9139,6 +9180,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8872385710338810062, guid: a53802e2b2de00849948b28e155ed224,
         type: 3}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
       propertyPath: _playerInteraction
@@ -9390,6 +9436,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8872385710338810062, guid: a53802e2b2de00849948b28e155ed224,
         type: 3}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
       propertyPath: _playerInteraction
@@ -14049,6 +14100,11 @@ PrefabInstance:
         type: 3}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
       propertyPath: _playerInteraction
       value: 
       objectReference: {fileID: 667427096}
@@ -14223,6 +14279,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8872385710338810062, guid: a53802e2b2de00849948b28e155ed224,
         type: 3}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
       propertyPath: _playerInteraction
@@ -17347,6 +17408,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 8872385710338810062, guid: a53802e2b2de00849948b28e155ed224,
         type: 3}
+    - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
+        type: 3}
+      propertyPath: _boltWindowsAudio
+      value: 
+      objectReference: {fileID: 141669114}
     - target: {fileID: 4945619681411943806, guid: 94202d278abc24e46a75264510e20ae8,
         type: 3}
       propertyPath: _playerInteraction

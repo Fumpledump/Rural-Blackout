@@ -31,7 +31,7 @@ public class EnemyAI : MonoBehaviour
     {
         if (anim != null)
         {
-            noAnimator = true;
+            hasAnimator = true;
         }
 
         if (target != null)

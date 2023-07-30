@@ -7,6 +7,8 @@ public class HelpManager : MonoBehaviour
 {
 	public static HelpManager Instance { get; private set; }
 
+	public GameObject playerFlashlight;
+
 	[SerializeField] TMP_Text helpText;
 
 	Coroutine coroutine;
@@ -34,5 +36,25 @@ public class HelpManager : MonoBehaviour
 		yield return new WaitForSeconds(3f);
 
 		helpText.gameObject.SetActive(false);
+	}
+
+	public void BlackoutNotification()
+    {
+		if (coroutine != null)
+		{
+			StopCoroutine(coroutine);
+		}
+
+		StartCoroutine(BlackoutNotificationHelper());
+	}
+
+	IEnumerator BlackoutNotificationHelper()
+	{
+		yield return new WaitForSeconds(2f);
+
+		// Turn on flashlight
+		playerFlashlight.SetActive(true);
+
+		StartCoroutine(I_ShowText("I should turn on my generator..."));
 	}
 }

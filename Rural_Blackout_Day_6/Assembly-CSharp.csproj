@@ -89,6 +89,7 @@
     <Compile Include="Assets\Game\Scripts\Interactibles\LightSwitch.cs" />
     <Compile Include="Assets\Game\Scripts\Audio\VolumeScaleByDistance.cs" />
     <Compile Include="Assets\Game\Scripts\SecurityCamera.cs" />
+    <Compile Include="Assets\Game\Scripts\IntroVideo.cs" />
     <Compile Include="Assets\Game\Scripts\BreakInPoint.cs" />
     <Compile Include="Assets\Game\Scripts\UI_and_Menus\CursorUnlock.cs" />
     <Compile Include="Assets\Game\Scripts\PlayerWalkNoise.cs" />
@@ -97,7 +98,6 @@
     <Compile Include="Assets\Game\Scripts\UnderwaterLevel\unlockLevel.cs" />
     <Compile Include="Assets\Game\Scripts\DestroyDelay.cs" />
     <Compile Include="Assets\Game\Scripts\Room.cs" />
-    <Compile Include="Assets\Game\Scripts\IntroVideo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
